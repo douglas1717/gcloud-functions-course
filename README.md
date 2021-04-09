@@ -15,3 +15,8 @@ To activate venv
 ```
 source venv/bin/ativate
 ```
+
+Now, create the file requirements.txt to automate install all necessary  packages to the project.
+```
+    pip install -r requirements.txt
+``` 
