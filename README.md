@@ -19,4 +19,16 @@ source venv/bin/ativate
 Now, create the file requirements.txt to automate install all necessary  packages to the project.
 ```
     pip install -r requirements.txt
-``` 
+```
+
+To run test in test enviroment 
+```
+functions-framework --target hello_world
+http://127.0.0.1:8081/?name=douglas
+```
+
+To login gcloud
+```
+./google-cloud-sdk/bin/gcloud init
+gcloud config set project paratyai
+```
