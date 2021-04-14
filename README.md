@@ -32,3 +32,7 @@ To login gcloud
 ./google-cloud-sdk/bin/gcloud init
 gcloud config set project paratyai
 ```
+To install gcloud function
+```
+gcloud functions deploy hello_world --runtime python38 --trigger-http
+```
