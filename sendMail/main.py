@@ -5,6 +5,14 @@ def send_mail(request):
     request_json = request.get_json(silent=True)
     parameters = ('sender', 'receiver','subject','message')
 
+    if request.method == "OPTIONS":
+        headers = {'Access-Control-Allow-Origin':'*',
+         'Access-Control-Allow-Methods': 'POST',
+         'Access-Control-Allow-Headers': 'Content-Type',
+         'Access-Control-Max-Age': '3600'}
+        return '', 204, headers
+
+    headers = {'Access-Control-Allow-Origin':'*'}
     if request.method != "POST":
         abort(404)
 
@@ -22,4 +30,4 @@ def send_mail(request):
         abort(400)
 
     return_data = {'subject': subject, 'code': 'SUCCESS'}
-    return make_response(jsonify(return_data), 200)
+    return return_data, 200, headers #make_response(jsonify(return_data), 200)

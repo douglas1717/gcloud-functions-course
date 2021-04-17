@@ -1,3 +1,4 @@
 .idea/
 venv/
 gcloud_install/
+__pycache__/
