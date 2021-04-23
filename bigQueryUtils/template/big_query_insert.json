@@ -1,0 +1,68 @@
+{
+	"project":"paratyai",
+	"event":"insert",
+	"table":"general.contratos_imob2",
+	"fields":
+		[
+			{
+				"field":
+					[
+						{
+							"key":"id_contrato",
+							"value":"999999",
+							"type": "integer"
+						},
+						{
+							"key":"sl",
+							"value":"99999",
+							"type": "integer"
+						},
+						{
+							"key":"time",
+							"value":"imob",
+							"type": "string"
+						},
+						{
+							"key":"consultor",
+							"value":"teste.teste",
+							"type": "string"
+						},	
+						{
+							"key":"valor",
+							"value":"1000.0",
+							"type": "float"
+						}
+				]
+		},
+		{
+			"field":
+				[
+					{
+						"key":"id_contrato",
+						"value":"999999",
+						"type": "integer"
+					},
+					{
+						"key":"sl",
+						"value":"99999",
+						"type": "integer"
+					},
+					{
+						"key":"time",
+						"value":"imob",
+						"type": "string"
+					},
+					{
+						"key":"consultor",
+						"value":"teste.teste",
+						"type": "string"
+					},
+					{
+						"key":"valor",
+						"value":"1000.0",
+						"type": "float"
+					}
+				]
+		}
+	]	
+}
