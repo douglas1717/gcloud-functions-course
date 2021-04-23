@@ -1,1 +1,0 @@
-paratyai-959c7988a663.json permite acesso aos recursos da nuvem. Por isso, armazene-o de maneira segura
